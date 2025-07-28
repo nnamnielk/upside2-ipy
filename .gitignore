@@ -1,3 +1,4 @@
 # Ignore ff2_rg/inputs and ff2_rg/pengxd
 ff2_rg/inputs/
 ff2_rg/pengxd/
+pab1/results/*
