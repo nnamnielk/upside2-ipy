@@ -2,3 +2,13 @@
 ff2_rg/inputs/
 ff2_rg/pengxd/
 pab1/results/*
+pab1/batch_*
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
