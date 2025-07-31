@@ -7,7 +7,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4GB
 #SBATCH --time=04:00:00
-#SBATCH --partition=bigmem
+#SBATCH --partition=beagle3-bigmem
 
 # Check if trajectory files were provided
 if [ $# -eq 0 ]; then

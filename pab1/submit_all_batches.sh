@@ -6,11 +6,10 @@
 #
 
 # Configuration
-TRAJ_DIR="/project/trsosnic/okleinmann/oliver/04.HDX/outputs/REMD/Kmarx_Pab1/original"
+TRAJ_DIR="/project/trsosnic/okleinmann/oliver/04.HDX/outputs/REMD/Kmarx_Pab1_RRM4/original"
 BATCH_SIZE=8  # Number of trajectories per batch job
-MAX_JOBS=8    # Maximum concurrent jobs to maintain
+MAX_JOBS=20    # Maximum concurrent jobs to maintain
 RESULTS_DIR="results"
-
 # Create results directory if it doesn't exist
 mkdir -p "$RESULTS_DIR"
 
