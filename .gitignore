@@ -1,7 +1,7 @@
 # Ignore ff2_rg/inputs and ff2_rg/pengxd
 ff2_rg/inputs/
 ff2_rg/pengxd/
-ff2_rg/__pycache__/
+**/__pycache__/
 condiv/.idea/
 condiv/__pycache__/
 condiv/input/
