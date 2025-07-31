@@ -1,14 +1,24 @@
 # Ignore ff2_rg/inputs and ff2_rg/pengxd
 ff2_rg/inputs/
 ff2_rg/pengxd/
-pab1/results/*
-pab1/batch_*
 
-# Python cache files
-__pycache__/
+# Python cache files (recursive)
+**/__pycache__/
 *.py[cod]
 *$py.class
 *.pyc
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
+
+# Condiv related
+condiv/.idea/
+condiv/__pycache__/
+condiv/input/
+condiv/pdbs/
+condiv/test_**
+condiv/peng_input/
+
+# PAB1 results and batch files
+pab1/results/*
+pab1/batch_*
